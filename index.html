@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>欢迎 - liMine的小站</title>
+  <link rel="Shortcut Icon" href="./ico/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/layui-dist/layui/css/layui.css">
+  <link rel="stylesheet" href="layui/css/layui.css">
+   <link rel="stylesheet" href="layui/css/Mine.css">
+   <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+</head>
+<body>
+  <div class="background-container" style="background-image: url('https://api.dujin.org/bing/1920.php');">
+    <div class="profile-card">
+      <img class="profile-image" src="https://q1.qlogo.cn/g?b=qq&nk=2963471298&s=640" alt="Profile Image">
+      <h1>liMine</h1>
+      <p>传媒专业学生 | 科技爱好者 | 围棋迷</p>
+      <div class="contact-info">
+        联系方式：limine2021@aliyun.com
+      </div>
+      <div class="social-links">
+        <a href="https://smyhz.com/" class="layui-btn layui-btn-normal"">殇陌科技</a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=2963471298&site=qq&menu=yes"class="layui-btn layui-btn-normal"">我的QQ</a>
+        <a href="https://blog.lshyour.top" class="layui-btn layui-btn-normal"">我的博客</a>
+      </div>
+  <div class="footer">
+<div class="layui-card">
+  <div class="layui-card-header">我的一言</div>
+  <div class="layui-card-body">
+<p id="hitokoto">:D 获取中...</p>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+  </div>
+</div>
+<p>&copy; <span id="currentYear"></span> liMine的小站. All Rights Reserved.</p>
+      <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">工信部联网备案号：闽ICP备2022004609号-2</a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302035181" target="_blank">公安机关联网备案号：35020302035181</a></p>
+      <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+      </script>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/layui-dist/layui.js"></script>
+<script src="layui/layui.js"></script>
+<script>
+layui.use(function(){
+  var layer = layui.layer;
+  var form = layui.form;
+  var laydate = layui.laydate;
+  var util = layui.util;
+  
+  // 欢迎信息
+  layer.msg('Hello World', {icon: 6});
+</body>
+</html>

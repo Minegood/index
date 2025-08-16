@@ -1,0 +1,97 @@
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .background-container {
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .profile-card {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .contact-info {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+    .social-links {
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    .navigation {
+      margin-top: 30px;
+    }
+
+    .navigation a {
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    .calendar {
+      margin-top: 30px;
+    }
+
+    .experience-title {
+      font-size: 24px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .experience-content {
+      font-size: 18px;
+      margin-top: 10px;
+      display: none;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #f2f2f2;
+      color: #333;
+      font-size: 12px;
+    }
+
+    .friends {
+      margin-top: 20px;
+    }
+
+    .friend-card {
+      display: inline-block;
+      margin: 0 10px;
+      text-align: center;
+    }
+
+    .friend-image {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 5px;
+    }
+  </style>
